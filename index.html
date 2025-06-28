@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details - Sarah Johnson</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="employee-profile">
+                    <div class="profile-image">
+                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Sarah Johnson" />
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="employee-name">Sarah Johnson</h1>
+                        <p class="employee-title">Senior Software Engineer</p>
+                        <div class="contact-info">
+                            <span class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                sarah.johnson@company.com
+                            </span>
+                            <span class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                +1 (555) 123-4567
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <button class="edit-profile-btn">
+                    <i class="fas fa-edit"></i>
+                    Edit Profile
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-bar" id="navBar">
+        <div class="container">
+            <ul class="nav-tabs">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link active">
+                        <i class="fas fa-user"></i>
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#employment" class="nav-link">
+                        <i class="fas fa-briefcase"></i>
+                        Employment
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        Education
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#documents" class="nav-link">
+                        <i class="fas fa-file-alt"></i>
+                        Documents
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#performance" class="nav-link">
+                        <i class="fas fa-chart-line"></i>
+                        Performance
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+                <a href="#" class="breadcrumb-link">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="#" class="breadcrumb-link">Employees</a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current">Sarah Johnson</span>
+            </nav>
+
+            <div class="content-layout">
+                <!-- Main Content Area -->
+                <div class="content-main">
+                    <!-- Personal Information Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Personal Information</h2>
+                            <button class="edit-btn">
+                                <i class="fas fa-edit"></i>
+                                Edit
+                            </button>
+                        </div>
+                        <div class="card-content">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <label class="info-label">Employee ID</label>
+                                    <span class="info-value">EMP-2024-001</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Date of Birth</label>
+                                    <span class="info-value">March 15, 1990</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Gender</label>
+                                    <span class="info-value">Female</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Nationality</label>
+                                    <span class="info-value">American</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Marital Status</label>
+                                    <span class="info-value">Single</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Emergency Contact</label>
+                                    <span class="info-value">John Johnson - +1 (555) 987-6543</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Contact Information</h2>
+                            <button class="edit-btn">
+                                <i class="fas fa-edit"></i>
+                                Edit
+                            </button>
+                        </div>
+                        <div class="card-content">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <label class="info-label">Work Email</label>
+                                    <span class="info-value">sarah.johnson@company.com</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Personal Email</label>
+                                    <span class="info-value">sarah.j.personal@gmail.com</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Work Phone</label>
+                                    <span class="info-value">+1 (555) 123-4567</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Mobile Phone</label>
+                                    <span class="info-value">+1 (555) 987-1234</span>
+                                </div>
+                                <div class="info-item full-width">
+                                    <label class="info-label">Address</label>
+                                    <span class="info-value">123 Main Street, Apt 4B<br>New York, NY 10001</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Employment Details Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Employment Details</h2>
+                            <button class="edit-btn">
+                                <i class="fas fa-edit"></i>
+                                Edit
+                            </button>
+                        </div>
+                        <div class="card-content">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <label class="info-label">Department</label>
+                                    <span class="info-value">Engineering</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Team</label>
+                                    <span class="info-value">Frontend Development</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Manager</label>
+                                    <span class="info-value">Michael Chen</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Start Date</label>
+                                    <span class="info-value">January 15, 2022</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Employment Type</label>
+                                    <span class="info-value">Full-time</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Work Location</label>
+                                    <span class="info-value">New York Office</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Salary</label>
+                                    <span class="info-value">$95,000 / year</span>
+                                </div>
+                                <div class="info-item">
+                                    <label class="info-label">Benefits Package</label>
+                                    <span class="info-value">Premium Health, Dental, Vision</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <!-- Quick Actions Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Quick Actions</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="quick-actions">
+                                <button class="action-btn primary">
+                                    <i class="fas fa-calendar-plus"></i>
+                                    Schedule Meeting
+                                </button>
+                                <button class="action-btn">
+                                    <i class="fas fa-envelope"></i>
+                                    Send Message
+                                </button>
+                                <button class="action-btn">
+                                    <i class="fas fa-file-download"></i>
+                                    Download Resume
+                                </button>
+                                <button class="action-btn">
+                                    <i class="fas fa-chart-bar"></i>
+                                    View Reports
+                                </button>
+                                <button class="action-btn">
+                                    <i class="fas fa-clock"></i>
+                                    Time Off Request
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Employment Summary Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Employment Summary</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="summary-stats">
+                                <div class="stat-item">
+                                    <div class="stat-value">2.5</div>
+                                    <div class="stat-label">Years at Company</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value">15</div>
+                                    <div class="stat-label">Days PTO Remaining</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value">4.8</div>
+                                    <div class="stat-label">Performance Rating</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value">3</div>
+                                    <div class="stat-label">Direct Reports</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activity Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Recent Activity</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="activity-list">
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <div class="activity-title">Completed Q1 Review</div>
+                                        <div class="activity-date">2 days ago</div>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-calendar"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <div class="activity-title">Attended Team Meeting</div>
+                                        <div class="activity-date">1 week ago</div>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <div class="activity-title">Completed Training Course</div>
+                                        <div class="activity-date">2 weeks ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
